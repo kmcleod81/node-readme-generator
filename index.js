@@ -1,9 +1,7 @@
-// dont forget: npm init
-
-// The user will be prompted for their GitHub username and other information pertaining to the project the README is for:
-
-
+//This is going to an array of questions onthe questions.js file:
 const questions = require('./questions');
+
+
 
 // function writeToFile(fileName, data) {
 // where do I want the file to be placed? desktop? local directory? do I need to check?
