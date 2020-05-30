@@ -2,10 +2,8 @@
 
 // The user will be prompted for their GitHub username and other information pertaining to the project the README is for:
 
-const inquirer = require('inquirer');
 //This is going to an array of questions:
-
-inquirer.prompt([
+const questions = [
     {
         type: 'input',
         name: 'title',
@@ -66,15 +64,16 @@ inquirer.prompt([
         name: 'badges',
         message: 'Choose a badge:',
         choices: [
-            'Awesome Badges',
-            //[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
-
-            'Custom Badge',
-            //[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
-
+            {
+                name: 'Awesome Badges',
+                value: '[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)',
+            },
+            {
+                name: 'Custom Badge',
+                value: '[![Custom badge](https://img.shields.io/badge/made-U+1F604-red.svg)](https://shields.io/)',
+            }
         ]
     },
-])
-    .then((answers) => {
-        console.log(answers);
-    });
+]
+module.exports = questions;
+
