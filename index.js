@@ -89,10 +89,11 @@ inquirer.prompt([
 
 var fs = require('fs');
 
-fs.writeFile('README.md', process.argv[2], function (err) {
+fs.writeFile('new.md', process.argv[2], (err) => {
     if (err) {
         throw err;
     }
+    // console.log('callback file has been saved');
 });
 
 function init() {

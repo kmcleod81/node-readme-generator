@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kmcleod81/node-readme-generator/issues"
   },
-  "homepage": "https://github.com/kmcleod81/node-readme-generator#readme"
+  "homepage": "https://github.com/kmcleod81/node-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.1.0"
+  }
 }
