@@ -1,35 +1,37 @@
-[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)
+## Welcome to GitHub Pages
 
-# node-readme-generator
+You can use the [editor on GitHub](https://github.com/kmcleod81/node-readme-generator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-One Paragraph of project description goes here
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Getting Started
+### Markdown
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+```markdown
+Syntax highlighted code block
 
+# Header 1
+## Header 2
+### Header 3
 
+- Bulleted
+- List
 
-## Built With
+1. Numbered
+2. List
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+**Bold** and _Italic_ and `Code` text
 
-## Contributing
+[Link](url) and ![Image](src)
+```
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-## Authors
+### Jekyll Themes
 
-* **Karla McLeod** - *Initial work* - [kmcleod81](https://github.com/kmcleod81)
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kmcleod81/node-readme-generator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+### Support or Contact
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
