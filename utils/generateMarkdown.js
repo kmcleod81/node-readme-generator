@@ -1,6 +1,6 @@
 function generateMarkdown(data) {
   return `
-${data.badges.value}
+${data.badges}
 
 # ${data.title}
 
@@ -15,7 +15,6 @@ ${data.howToInstall}
 
 ## Usage
 ${data.usage}
-
 
 ## Author
 * **${data.contributors}** - [${data.username}](https://github.com/${data.username})
