@@ -35,6 +35,11 @@ const questions = [
         message: 'Why would you use this application?',
     },
     {
+        type: 'input',
+        name: 'contributors',
+        message: 'Who contributed to the project?',
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Choose a license?',
@@ -65,11 +70,6 @@ const questions = [
         ]
     },
     {
-        type: 'input',
-        name: 'contributors',
-        message: 'Who is the contributor(s)?',
-    },
-    {
         type: 'list',
         name: 'tests',
         message: 'Did you run any tests?',
@@ -87,15 +87,19 @@ const questions = [
     {
         type: 'list',
         name: 'pic',
-        message: 'Do you want a profile picture?',
+        message: 'Choose a profile image:',
         choices: [
             {
-                name: 'Yes',
-                value: '### Profile Picture\n![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=300)',
+                name: 'Male',
+                value: '![Male Avatar](https://avatars3.githubusercontent.com/u/2838987?v=300&s=4)',
             },
             {
-                name: 'No',
-                value: '',
+                name: 'Female',
+                value: '![Female Avatar](https://avatars0.githubusercontent.com/u/586560?v=300&s=4)',
+            },
+            {
+                name: 'Other',
+                value: '![Other Avatar](https://avatars1.githubusercontent.com/u/1230389?s=300&v=4)',
             }
         ]
     },

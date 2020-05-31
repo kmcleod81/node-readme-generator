@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Good README GENERATOR
 
-You can use the [editor on GitHub](https://github.com/kmcleod81/node-readme-generator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Custom badge](https://img.shields.io/badge/License-ISC-green.svg)](https://shields.io/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Table of Contents:
+* [Description](#Description)
+* [How to Install](#How-to-Install)
+* [Usage](#Usage)
+* [Contributors](#Contributors)
+* [Link to Page](#Link-to-Page)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Description
+This application creates a README file specific to the users input
 
-```markdown
-Syntax highlighted code block
+## How to Install
+run: npm install in your terminal/bash, then node index
 
-# Header 1
-## Header 2
-### Header 3
+## Usage
+You would use this to generate a readme file for you repository project.
 
-- Bulleted
-- List
+## Contributors
+* **Karla McLeod** - [kmcleod81](https://github.com/kmcleod81)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kmcleod81/node-readme-generator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and w
+## Link to Page
+* https://kmcleod81.github.io/node-readme-generator/
