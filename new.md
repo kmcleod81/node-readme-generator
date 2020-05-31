@@ -1,20 +1,19 @@
 
-undefined
+[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
 
-# Title
+# title
 
 ## Table of contents
-* [How to install, Authors, Email](#How to install, Authors, Email)
+* [content](#content)
 
 ## Description
-Description
+description
 
 ## How to install
-How you install your application
+install
 
 ## Usage
-Use to create a README markdown file
-
+usage
 
 ## Author
 * **Karla McLeod** - [kmcleod81](https://github.com/kmcleod81)
@@ -23,7 +22,7 @@ Use to create a README markdown file
 mcleod.karla@gmail.com
 
 ### Profile Picture
-me
+https://avatars2.githubusercontent.com/u/7970947?v=3&s=460
 
 ## Link to Page
 * https://kmcleod81.github.io/portfolio/

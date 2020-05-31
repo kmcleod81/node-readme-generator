@@ -53,6 +53,18 @@ const questions = [
         type: 'input',
         name: 'pic',
         message: 'What is your Github profile picture?',
+        choices: [
+            {
+                name: 'Funny 1',
+                value: 'https://avatars2.githubusercontent.com/u/7970947?v=3&s=460',
+            },
+            {
+                name: 'Funny 2',
+                value: 'https://avatars2.githubusercontent.com/u/7970947?v=3&s=460',
+            }
+        ]
+
+
     },
     {
         type: 'input',
