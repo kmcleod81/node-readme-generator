@@ -4,8 +4,16 @@ ${data.badges}
 
 # ${data.title}
 
-## Table of contents
-* [${data.toc}](#${data.toc})
+## Table of contents:
+* [Description](#Description)
+* [How to install](#How to install)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributors](#Ccontributors)
+* [Tests](#Tests)
+* [Email](#Email)
+* [Profile Picture](#Profile Picture)
+* [Profile Picture](#Profile Picture)
 
 ## Description
 ${data.desc}
@@ -16,8 +24,14 @@ ${data.howToInstall}
 ## Usage
 ${data.usage}
 
-## Author
+## License
+${data.license}
+
+## Contributor
 * **${data.contributors}** - [${data.username}](https://github.com/${data.username})
+
+### Tests
+${data.tests}
 
 ### Email
 ${data.email}
@@ -26,8 +40,12 @@ ${data.email}
 ${data.pic}
 
 ## Link to Page
-* https://${data.username}.github.io/portfolio/
+* https://github.com/${data.username}
+
 `;
 }
 
 module.exports = generateMarkdown;
+
+
+

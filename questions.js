@@ -57,15 +57,15 @@ const questions = [
     {
         type: 'list',
         name: 'pic',
-        message: 'What is your Github profile picture?',
+        message: 'Do you want a profile picture?',
         choices: [
             {
-                name: 'Funny 1',
-                value: '[![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=460)]',
+                name: 'Yes',
+                value: '![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=300)',
             },
             {
-                name: 'Funny 2',
-                value: '[![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=460)]',
+                name: 'No',
+                value: '',
             }
         ]
     },
