@@ -4,21 +4,22 @@ ${data.badges}
 
 # ${data.title}
 
-## Table of contents:
-* [Description](#description)
-* [How to install](#How to install)
+## Table of Contents:
+* [Description](#Description)
+* [How to Install](#How-to-Install)
 * [Usage](#Usage)
 * [License](#License)
-* [Contributors](#Ccontributors)
+* [Contributors](#Contributors)
 * [Tests](#Tests)
 * [Email](#Email)
-* [Profile Picture](#Profile Picture)
-* [Profile Picture](#Profile Picture)
+* [Profile Picture](#Profile-Picture)
+* [Link to Page](#Link-to-Page)
+
 
 ## Description
 ${data.desc}
 
-## How to install
+## How to Install
 ${data.howToInstall}
 
 ## Usage
@@ -27,7 +28,7 @@ ${data.usage}
 ## License
 ${data.license}
 
-## Contributor
+## Contributors
 * **${data.contributors}** - [${data.username}](https://github.com/${data.username})
 
 ### Tests

@@ -37,7 +37,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributors',
-        message: 'Who are the contributors?',
+        message: 'Who is the contributor?',
     },
     {
         type: 'list',
