@@ -1,3 +1,4 @@
+// This file generates the actual markdown file. Using the correct markdown formatting to populate the data
 function generateMarkdown(data) {
   return `
 # ${data.title}
@@ -6,7 +7,6 @@ function generateMarkdown(data) {
 * [Description](#Description)
 * [How to Install](#How-to-Install)
 * [Usage](#Usage)
-* [License](#License)
 * [Contributors](#Contributors)
 * [Tests](#Tests)
 * [Email](#Email)
@@ -22,7 +22,6 @@ ${data.howToInstall}
 ## Usage
 ${data.usage}
 
-## License
 [![Custom badge](https://img.shields.io/badge/License-${data.license}-${data.color}.svg)](https://shields.io/)
 
 ## Contributors
@@ -39,7 +38,6 @@ ${data.pic}
 
 ## Link to Page
 * https://github.com/${data.username}
-
 `;
 }
 

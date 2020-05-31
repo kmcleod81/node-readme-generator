@@ -1,11 +1,10 @@
 
-# title
+# Good README Generator
 
 ## Table of Contents:
 * [Description](#Description)
 * [How to Install](#How-to-Install)
 * [Usage](#Usage)
-* [License](#License)
 * [Contributors](#Contributors)
 * [Tests](#Tests)
 * [Email](#Email)
@@ -13,19 +12,18 @@
 * [Link to Page](#Link-to-Page)
 
 ## Description
-desc
+An application that creates a readme file
 
 ## How to Install
-application
+npm install, then node index
 
 ## Usage
-why use
+You can use this application to geneate a README file for your project
 
-## License
-[![Custom badge](https://img.shields.io/badge/License-isc-red.svg)](https://shields.io/)
+[![Custom badge](https://img.shields.io/badge/License-isc-green.svg)](https://shields.io/)
 
 ## Contributors
-* **project** - [kmcleod81](https://github.com/kmcleod81)
+* **Karla McLeod** - [kmcleod81](https://github.com/kmcleod81)
 
 ### Tests
 Testing was done on this application
@@ -38,4 +36,3 @@ mcleod.karla@gmail.com
 
 ## Link to Page
 * https://github.com/kmcleod81
-
