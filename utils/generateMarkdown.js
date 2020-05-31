@@ -5,7 +5,7 @@ ${data.badges}
 # ${data.title}
 
 ## Table of contents:
-* [Description](#Description)
+* [Description](#description)
 * [How to install](#How to install)
 * [Usage](#Usage)
 * [License](#License)
