@@ -1,7 +1,6 @@
 //This is going to an array of questions onthe questions.js file:
 const questions = require('./questions');
 const inquirer = require('inquirer');
-const axios = require('axios');
 const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
 
