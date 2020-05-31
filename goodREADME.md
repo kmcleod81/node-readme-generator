@@ -1,5 +1,5 @@
 
-  [![Custom badge](https://img.shields.io/badge/License-apache-2.0-red.svg)](https://shields.io/)
+  [![Custom badge](https://img.shields.io/badge/License-isc-green.svg)](https://shields.io/)
 
 # Good README Generator
 
@@ -15,13 +15,13 @@
 
 
 ## Description
-An application that generates README files
+Description
 
 ## How to Install
 npm install, then node index
 
 ## Usage
-To generate a readme file for your repository
+To generate a readme file for you repository project
 
 ## Contributors
 * **Karla McLeod** - [kmcleod81](https://github.com/kmcleod81)
@@ -32,8 +32,7 @@ Testing was done on this application
 ### Email
 mcleod.karla@gmail.com
 
-### Profile Picture
-![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=300)
+
 
 ## Link to Page
 * https://github.com/kmcleod81

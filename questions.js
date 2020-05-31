@@ -40,18 +40,6 @@ const questions = [
         message: 'Choose a license?',
         choices: [
             {
-                name: 'Academic Free License v3.0',
-                value: 'afl-3.0',
-            },
-            {
-                name: 'Apache license 2.0',
-                value: 'apache-2.0',
-            },
-            {
-                name: 'Educational Community License v2.0',
-                value: 'ecl-2.0',
-            },
-            {
                 name: 'ISC',
                 value: 'isc',
             },
