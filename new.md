@@ -1,19 +1,19 @@
 
 [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
 
-# title
+# test
 
 ## Table of contents
-* [content](#content)
+* [undefined](#undefined)
 
 ## Description
-description
+test
 
 ## How to install
-install
+test
 
 ## Usage
-usage
+test
 
 ## Author
 * **Karla McLeod** - [kmcleod81](https://github.com/kmcleod81)
@@ -22,7 +22,7 @@ usage
 mcleod.karla@gmail.com
 
 ### Profile Picture
-https://avatars2.githubusercontent.com/u/7970947?v=3&s=460
+[![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=460)]
 
 ## Link to Page
 * https://kmcleod81.github.io/portfolio/

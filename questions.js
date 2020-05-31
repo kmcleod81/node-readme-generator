@@ -6,6 +6,11 @@
 const questions = [
     {
         type: 'input',
+        name: 'username',
+        message: 'What is your Github username?',
+    },
+    {
+        type: 'input',
         name: 'title',
         message: 'What is your project title?',
     },
@@ -16,18 +21,13 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'toc',
-        message: 'What is your table of contents?',
-    },
-    {
-        type: 'input',
         name: 'howToInstall',
         message: 'How to install the application?',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'What is your usage?',
+        message: 'Why would you use this application?',
     },
     {
         type: 'input',
@@ -40,31 +40,34 @@ const questions = [
         message: 'Who are the contributors?',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'tests',
-        message: 'What are your tests?',
+        message: 'Did you run any tests?',
+        choices: [
+            {
+                name: 'Yes',
+                value: 'Yes',
+            },
+            {
+                name: 'No',
+                value: 'No',
+            }
+        ]
     },
     {
-        type: 'input',
-        name: 'username',
-        message: 'What is your Github username?',
-    },
-    {
-        type: 'input',
+        type: 'list',
         name: 'pic',
         message: 'What is your Github profile picture?',
         choices: [
             {
                 name: 'Funny 1',
-                value: 'https://avatars2.githubusercontent.com/u/7970947?v=3&s=460',
+                value: '[![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=460)]',
             },
             {
                 name: 'Funny 2',
-                value: 'https://avatars2.githubusercontent.com/u/7970947?v=3&s=460',
+                value: '[![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=460)]',
             }
         ]
-
-
     },
     {
         type: 'input',
