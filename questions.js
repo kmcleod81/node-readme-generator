@@ -11,18 +11,23 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'email',
+        message: 'What is your Github email?',
+    },
+    {
+        type: 'input',
         name: 'title',
         message: 'What is your project title?',
     },
     {
         type: 'input',
         name: 'desc',
-        message: 'What is your description?',
+        message: 'What is your project description?',
     },
     {
         type: 'input',
         name: 'howToInstall',
-        message: 'How to install the application?',
+        message: 'How do you install the application?',
     },
     {
         type: 'input',
@@ -30,14 +35,51 @@ const questions = [
         message: 'Why would you use this application?',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'What is your license?',
+        message: 'Choose a license?',
+        choices: [
+            {
+                name: 'Academic Free License v3.0',
+                value: 'afl-3.0',
+            },
+            {
+                name: 'Apache license 2.0',
+                value: 'apache-2.0',
+            },
+            {
+                name: 'Educational Community License v2.0',
+                value: 'ecl-2.0',
+            },
+            {
+                name: 'ISC',
+                value: 'isc',
+            },
+            {
+                name: 'MIT',
+                value: 'mit',
+            },
+        ]
+    },
+    {
+        type: 'list',
+        name: 'color',
+        message: 'Choose a badge color:',
+        choices: [
+            {
+                name: 'Red',
+                value: 'red',
+            },
+            {
+                name: 'Green',
+                value: 'green',
+            }
+        ]
     },
     {
         type: 'input',
         name: 'contributors',
-        message: 'Who is the contributor?',
+        message: 'Who is the contributor(s)?',
     },
     {
         type: 'list',
@@ -46,11 +88,11 @@ const questions = [
         choices: [
             {
                 name: 'Yes',
-                value: 'Yes',
+                value: 'Testing was done on this application',
             },
             {
                 name: 'No',
-                value: 'No',
+                value: 'No tests were done on this application',
             }
         ]
     },
@@ -61,31 +103,11 @@ const questions = [
         choices: [
             {
                 name: 'Yes',
-                value: '![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=300)',
+                value: '### Profile Picture\n![Funny Avatar](https://avatars2.githubusercontent.com/u/7970947?v=3&s=300)',
             },
             {
                 name: 'No',
                 value: '',
-            }
-        ]
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'What is your Github email?',
-    },
-    {
-        type: 'list',
-        name: 'badges',
-        message: 'Choose a badge:',
-        choices: [
-            {
-                name: 'Awesome Badges',
-                value: '[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)',
-            },
-            {
-                name: 'Custom Badge',
-                value: '[![Custom badge](https://img.shields.io/badge/made-U+1F604-red.svg)](https://shields.io/)',
             }
         ]
     },

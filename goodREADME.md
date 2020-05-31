@@ -1,5 +1,5 @@
 
-[![Custom badge](https://img.shields.io/badge/made-U+1F604-red.svg)](https://shields.io/)
+  [![Custom badge](https://img.shields.io/badge/License-apache-2.0-red.svg)](https://shields.io/)
 
 # Good README Generator
 
@@ -7,7 +7,6 @@
 * [Description](#Description)
 * [How to Install](#How-to-Install)
 * [Usage](#Usage)
-* [License](#License)
 * [Contributors](#Contributors)
 * [Tests](#Tests)
 * [Email](#Email)
@@ -16,22 +15,19 @@
 
 
 ## Description
-Application that creates a README.md based on users input
+An application that generates README files
 
 ## How to Install
 npm install, then node index
 
 ## Usage
-I would use this to create a README file for my repository projects
-
-## License
-MIT
+To generate a readme file for your repository
 
 ## Contributors
 * **Karla McLeod** - [kmcleod81](https://github.com/kmcleod81)
 
 ### Tests
-No
+Testing was done on this application
 
 ### Email
 mcleod.karla@gmail.com

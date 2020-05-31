@@ -4,27 +4,18 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
 
-// function writeToFile(fileName, data) {
-// where do I want the file to be placed? desktop? local directory? do I need to check?
-// create a file with name fileName
-// write to file fileName the data 
-// }
+// Create a function (writeFile) that creates a new file and writes the users input data to it:
 
 function init() {
     // initialize stuff that I need here
     inquirer.prompt(questions)
         .then((answers) => {
             console.log(answers);
-            fs.writeFile('new.md', generateMarkdown(answers), (err) => {
-                if (err) {
-                    throw err;
-                }
-                // console.log('callback file has been saved');
+            fs.writeFile('goodREADME.md', generateMarkdown(answers), (err) => {
+                if (err) throw err;
+                console.log('Your file has been saved as: goodREADME.md');
             });
         });
 }
-
 init();
-
-
 
