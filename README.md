@@ -2,7 +2,7 @@
 
 [![Custom badge](https://img.shields.io/badge/License-ISC-green.svg)](https://shields.io/)
 
-<img src="./assets/images/readme.gif" width="80%" height="80%">
+![Readme Generator](./assets/img/readme.gif)
 
 ## Table of Contents:
 * [Description](#Description)
