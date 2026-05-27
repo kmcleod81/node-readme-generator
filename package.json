@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kmcleod81/node-readme-generator#readme",
   "dependencies": {
-    "inquirer": "^7.1.0"
+    "inquirer": "^14.0.0"
   }
 }
